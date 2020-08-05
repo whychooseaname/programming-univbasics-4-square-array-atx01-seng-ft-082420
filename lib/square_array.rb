@@ -3,7 +3,8 @@ counter=0
  new_array = []
 
  while counter<array.length do |integer|
-  new_array << integer ** 2
+  square_array << integer ** 2
+  counter+=1
  end
- return new_array
+ return square_array
 end
