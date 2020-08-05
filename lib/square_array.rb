@@ -1,8 +1,8 @@
 def square_array(array)
-
+counter=0
  new_array = []
 
- array.each do |integer|
+ while counter<array.length do |integer|
   new_array << integer ** 2
  end
  return new_array
